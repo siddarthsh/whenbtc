@@ -1,0 +1,35 @@
+{
+  "name": "whenbtc",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client-install": "npm install --prefix client",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "Siddarth Sharma",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.523.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.0",
+    "express": "^4.17.1",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.13",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "request-promise-native": "^1.0.7",
+    "validator": "^11.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

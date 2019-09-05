@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/whenbtc/static/css/main.34de6062.chunk.css",
+    "main.js": "/whenbtc/static/js/main.86cb1f8f.chunk.js",
+    "main.js.map": "/whenbtc/static/js/main.86cb1f8f.chunk.js.map",
+    "runtime~main.js": "/whenbtc/static/js/runtime~main.9b90c987.js",
+    "runtime~main.js.map": "/whenbtc/static/js/runtime~main.9b90c987.js.map",
+    "static/js/2.371e9c18.chunk.js": "/whenbtc/static/js/2.371e9c18.chunk.js",
+    "static/js/2.371e9c18.chunk.js.map": "/whenbtc/static/js/2.371e9c18.chunk.js.map",
+    "index.html": "/whenbtc/index.html",
+    "precache-manifest.69ec59d45db9f8656bf288ce2497a205.js": "/whenbtc/precache-manifest.69ec59d45db9f8656bf288ce2497a205.js",
+    "service-worker.js": "/whenbtc/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/whenbtc/static/css/main.34de6062.chunk.css.map"
+  }
+}
