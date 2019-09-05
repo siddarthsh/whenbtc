@@ -1,6 +1,6 @@
 # WHEN BTC
 
-Why are you reading this ?
+Client website built with ReactJS and NodeJS, which makes use of the CoinMarketCap API to fetch data regarding cryptocurrencies
 
 ## Stack
 - ReactJS (Client Side Rendering)
